@@ -217,3 +217,11 @@ header nav a:hover {
     color:#3d6b5e;
 }
 
+@media (max-width: 768px){
+    .product-card {
+        width: 100%;
+        display: block;
+    }
+
+}
+
