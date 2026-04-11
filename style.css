@@ -222,6 +222,13 @@ header nav a:hover {
         width: 100%;
         display: block;
     }
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+    .step {
+        width:80%
+    }
 
 }
 
