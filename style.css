@@ -199,6 +199,7 @@ header nav a:hover {
   border-radius: 15px;
   padding: 30px 20px;
   width: 25%;
+  border: 2px solid #e8b4a0;
 }
 
 .step h3 {
@@ -225,10 +226,42 @@ header nav a:hover {
     .steps {
         flex-direction: column;
         align-items: center;
+        padding: 15px;
     }
     .step {
         width:80%
     }
+    header {
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  margin: 0 10px;
+  font-size: 13px;
+}
+
 
 }
+.buy-btn {
+  display: block;
+  background-color: #c0715a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.buy-btn:hover {
+  background-color: #a85d48;
+}
+
 
